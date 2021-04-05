@@ -1,0 +1,1 @@
+web: gunicorn insta_p1.wsgi --log-file -
