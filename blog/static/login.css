@@ -1,0 +1,67 @@
+body {
+    background-image: url("loginBackground.jpg");
+    /* opacity: 0.8; */
+}
+
+table {
+    font-style: italic;
+    font-size: 50px;
+    border-collapse: collapse;
+    background-color: lightblue;
+}
+
+table:hover {
+    font-style: italic;
+    font-size: 50px;
+    border-collapse: collapse;
+    background-color: lightgreen;
+}
+
+.row {
+    display: flex;
+    margin: 150px 40px 80px 10px;
+}
+
+td {
+    border: 0;
+    text-align: center;
+}
+
+
+/* .td1 {
+    background-image: url("user.png");
+} */
+
+img {
+    width: 200px;
+}
+
+input:hover {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(68, 0, 255);
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: rgb(253, 40, 40);
+}
+
+button:hover {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: rgb(58, 253, 40);
+}

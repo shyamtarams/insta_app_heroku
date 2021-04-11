@@ -6,6 +6,10 @@ def indexfn(resquest):
     
 def fn1(request):
     return HttpResponse("<h1>hello </h1>")
+
 def fn2(request):
     return render(request,'index.html')
+
+def login(request):
+    return render(request,'login.html')
 
